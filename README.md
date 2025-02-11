@@ -18,15 +18,11 @@ By releasing this dataset, we aim to provide a foundation for future research fo
 ## 📂 Datasets  
 The **MedArabiQ** benchmark consists of the following **seven datasets**:  
 1. 🏥 **Multiple Choice – Medical Knowledge Assessment**  
-2. 🧠 **Multiple Choice – Clinical Reasoning**  
+2. 🧠 **Multiple Choice – Bias Evaluation in Medical Contexts**  
 3. ✏️ **Fill-in-the-Blank (With Choices)**  
 4. 🔍 **Fill-in-the-Blank (Without Choices)**  
-5. 🗣️ **Patient-Doctor Question Answering**  
-6. ⚖️ **Ethical Decision-Making in Medicine**  
-7. 🚨 **Bias Evaluation in Medical Contexts**  
+5. 🗣️ **Patient-Doctor Question Answering (QA)**  
+6. ⚖️ **QA with GEC**  
+7. 🚨 **QA with LLM modifications**  
 
-Each dataset is formatted in **CSV/JSON** and includes task descriptions, input prompts, and ground-truth answers.  
-
----
-
-## 📁 Repository Structure  
+Each dataset is formatted in **CSV** and includes task descriptions, input prompts, and ground-truth answers.  
