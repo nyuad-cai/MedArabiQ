@@ -1,5 +1,9 @@
 # 🚀 MedArabiQ: Benchmarking Large Language Models on Arabic Medical Tasks  
 
+## Paper Link
+- Preprint: https://www.arxiv.org/abs/2505.03427
+
+
 ## 🏥 Overview  
 Large Language Models (LLMs) have shown remarkable promise in healthcare applications, but their performance in the **Arabic medical domain** remains largely unexplored due to the lack of high-quality, domain-specific datasets. **MedArabiQ** introduces a new benchmark dataset consisting of **seven Arabic medical tasks**, covering multiple specialties and question formats:  
 
@@ -26,3 +30,11 @@ The **MedArabiQ** benchmark consists of the following **seven datasets**:
 7. 🚨 **QA with LLM modifications**  
 
 Each dataset is formatted in **CSV** and includes task descriptions, input prompts, and ground-truth answers.  
+
+If you use this dataset, please cite our work and give our repo a ⭐:
+@article{daoud2025medarabiq,
+  title={MedArabiQ: Benchmarking Large Language Models on Arabic Medical Tasks},
+  author={Daoud, Mouath Abu and Abouzahir, Chaimae and Kharouf, Leen and Al-Eisawi, Walid and Habash, Nizar and Shamout, Farah E},
+  journal={arXiv preprint arXiv:2505.03427},
+  year={2025}
+}
